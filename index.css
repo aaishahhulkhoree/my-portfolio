@@ -6,39 +6,49 @@
 
 body {
   font-family: "Segoe UI", sans-serif;
-  background: linear-gradient(135deg, #4ec87d, #8ffbc9);
-  color: white;
+  background: linear-gradient(135deg, #b8d3b3, #f5e9d0);
+  color: #2e3d29;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
   text-align: center;
+  padding: 1em;
 }
 
 .container {
-  max-width: 500px;
-  padding: 2em;
-  background-color: rgba(0, 0, 0, 0.3);
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  max-width: 520px;
+  padding: 2.5em;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6px);
 }
 
 h1 {
   font-size: 2.5em;
   margin-bottom: 0.5em;
+  color: #2a472d;
 }
 
 p {
   font-size: 1.2em;
   margin-bottom: 1em;
+  color: #3f533c;
 }
 
 .email {
-  font-size: 0.9em;
-  color: #ddd;
+  font-size: 0.95em;
+  color: #2f3e33;
 }
 
 .email a {
-  color: #fff;
+  color: #1f5732;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.email a:hover {
   text-decoration: underline;
+  color: #144026;
 }
