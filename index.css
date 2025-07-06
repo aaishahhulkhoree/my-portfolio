@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #4e54c8, #8f94fb);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.container {
+  max-width: 500px;
+  padding: 2em;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+}
+
+p {
+  font-size: 1.2em;
+  margin-bottom: 1em;
+}
+
+.email {
+  font-size: 0.9em;
+  color: #ddd;
+}
+
+.email a {
+  color: #fff;
+  text-decoration: underline;
+}
