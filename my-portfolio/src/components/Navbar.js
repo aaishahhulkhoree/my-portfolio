@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="logo">
-        <Link to="/" onClick={closeMenu}>Aaishah</Link>
+        <Link to="/" onClick={closeMenu}>Bienvenue sur le Portfolio de Aaïshah !</Link>
       </div>
 
       {/* Menu desktop */}

@@ -12,6 +12,7 @@ const projects = [
     title: 'Application Météo (React Native)',
     description: 'App météo mobile avec API en temps réel.',
     image: '/assets/images/meteo.jpg',
+    collaborators: ['Jade Cortial & Aaishah Hulkhoree'],
     repo: 'https://github.com/aaishahhulkhoree/projet_meteo_shield',
     details: `Application mobile météo conçue avec React Native. Intégration d'une API météo externe, affichage dynamique des données, design responsive avec gestion des erreurs et animations météo.`,
   },
@@ -21,8 +22,7 @@ const projects = [
   title: 'Cake - Commandes de pâtisseries personnalisées',
   description: 'App web pour commander des gâteaux (fullstack).',
   images: [
-    '/assets/images/cake/home.jpg',
-    '/assets/images/cake/form.jpg'
+    '/assets/images/cake/home.jpg'
   ],
   collaborators: ['Jade Cortial', 'Odélia Cohen', 'Sabrina Mac', 'Aurélien Guilloux', 'Aaishah Hulkhoree'],
   github: 'https://gitlab.com/jadecrtl/Projet-M1G1-2025-Team-A',
@@ -40,7 +40,7 @@ Fonctionnalités : création de comptes, sélection de produits, formulaire dyna
     '/assets/images/bi/sap-dashboard.jpg',
     '/assets/images/bi/presentation-slide.jpg'
   ],
-  collaborators: ['Jade Cortial'],
+  collaborators: ['Jade Cortial & Aaishah Hulkhoree'],
   github: '',
   details: `Projet Business Intelligence réalisé avec Jade Cortial. 
 L'objectif était d'étudier les données de pollution entre 2015 et 2021, en les intégrant dans Power BI. 

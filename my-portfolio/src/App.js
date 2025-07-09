@@ -9,6 +9,12 @@ import Projects from './pages/Projects';
 import ProjectDetail from './pages/ProjectDetail';
 import Contact from './pages/Contact';
 import CookieBanner from './components/CookieBanner';
+import MentionsLegales from './pages/MentionsLegales';
+import Confidentialite from './pages/Confidentialite';
+import Conditions from './pages/Conditions';
+
+import NotFound from './components/NotFound';
+
 
 const App = () => {
   const [cookiesAccepted, setCookiesAccepted] = React.useState(false);
@@ -26,6 +32,12 @@ const App = () => {
           <Route path="/projects" element={<Projects />} />
           <Route path="/projects/:id" element={<ProjectDetail />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/mentions-legales" element={<MentionsLegales />} />
+          <Route path="/confidentialite" element={<Confidentialite />} />
+          <Route path="/conditions" element={<Conditions />} />
+
+          <Route path="*" element={<NotFound />} />
+
         </Routes>
         <Footer />
       </div>
