@@ -1,0 +1,75 @@
+/* === Reset de base === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* === Style général === */
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #f6f0e1, #a8d5ba); /* Dégradé doux */
+  color: #2e3d29;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+/* Scrollbars personnalisées */
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #2f613f;
+  border-radius: 8px;
+}
+
+/* Liens */
+a {
+  color: #2f613f;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #1e422c;
+}
+
+/* Boutons généraux */
+button {
+  cursor: pointer;
+  font-family: inherit;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+/* Sections globales */
+section {
+}
+
+/* Titres */
+h1, h2, h3 {
+  color: #2b5d3d;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+/* Inputs et textareas */
+input, textarea {
+  font-family: inherit;
+}
+
+/* Responsive text */
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 95%;
+  }
+
+  section {
+    padding: 3rem 1.5rem;
+  }
+}

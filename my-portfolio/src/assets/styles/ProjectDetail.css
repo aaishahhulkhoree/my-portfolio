@@ -1,0 +1,83 @@
+.project-detail {
+  max-width: 800px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(4px);
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.project-detail h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #2b5d3d;
+}
+
+.project-detail img {
+  width: 100%;
+  max-height: 350px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin: 1rem 0;
+}
+
+.project-detail p {
+  font-size: 1.05rem;
+  color: #3f533c;
+  margin-bottom: 1.5rem;
+  text-align: justify;
+}
+
+.project-detail a {
+  display: inline-block;
+  background-color: #2f613f;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  margin-bottom: 1rem;
+}
+
+.project-detail a:hover {
+  background-color: #1e422c;
+}
+
+.project-detail .btn {
+  display: inline-block;
+  margin-top: 1.5rem;
+}
+
+.project-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.project-images img {
+  max-width: 100%;
+  width: 320px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-collab h4 {
+  color: #2f613f;
+  margin-bottom: 0.5rem;
+}
+
+.project-collab ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.project-collab li {
+  font-size: 1rem;
+  color: #3f533c;
+}
