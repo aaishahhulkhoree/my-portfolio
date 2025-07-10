@@ -19,7 +19,7 @@ const About = () => {
         </ul>
       </div>
 
-      <p><FaHeart className="icon" /> Passionnée par la <strong>gestion de projet</strong>, la <strong>cybersécurité</strong>, l’UX/UI et l’impact des nouvelles technologies.</p>
+      <p><FaHeart className="icon" /> Passionnée par la gestion de projet, l'analyse des données, la cybersécurité, l’UX/UI et l’impact des nouvelles technologies.</p>
     </section>
   );
 };
