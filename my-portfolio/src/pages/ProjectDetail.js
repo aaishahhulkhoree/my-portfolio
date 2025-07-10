@@ -2,6 +2,7 @@ import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import projects from '../data/projects.js';
 import '../assets/styles/ProjectDetail.css';
+import AutoSlideShow from '../components/AutoSlideShow.js';
 
 const ProjectDetail = () => {
   const { id } = useParams();
@@ -34,11 +35,39 @@ const ProjectDetail = () => {
             </div>
             )}
 
+            {project.id === 'meteo' && (
+              <div className="project-slides">
+                <h4>Slides de Soutenance :</h4>
+                <AutoSlideShow images={[
+                  '/assets/slides/meteoshield/Soutenance.png',
+                  '/assets/slides/meteoshield/Soutenance(1).png',
+                  '/assets/slides/meteoshield/Soutenance(2).png',
+                  '/assets/slides/meteoshield/Soutenance(3).png',
+                  '/assets/slides/meteoshield/Soutenance(4).png',
+                  '/assets/slides/meteoshield/Soutenance(5).png',
+                  '/assets/slides/meteoshield/Soutenance(6).png',
+                  '/assets/slides/meteoshield/Soutenance(7).png',
+                  '/assets/slides/meteoshield/Soutenance(80).png',
+                  '/assets/slides/meteoshield/Soutenance(8).png',
+                  '/assets/slides/meteoshield/Soutenance(9).png',
+                  '/assets/slides/meteoshield/Soutenance(10).png',
+                  '/assets/slides/meteoshield/Soutenance(11).png',
+                  '/assets/slides/meteoshield/Soutenance(12).png',
+                  '/assets/slides/meteoshield/Soutenance(13).png',
+                  '/assets/slides/meteoshield/Soutenance(14).png',
+                  '/assets/slides/meteoshield/Soutenance(15).png',
+                  '/assets/slides/meteoshield/Soutenance(16).png',
+                ]} />
+              </div>
+            )}
+
+
         {project.github && (
             <a href={project.github} target="_blank" rel="noreferrer">
                 Voir le projet
             </a>
         )}
+
       <br />
       <Link to="/projects" className="btn">← Retour aux projets</Link>
     </section>
